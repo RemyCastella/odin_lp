@@ -1,0 +1,170 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px 50px 150px;
+    gap: 48px;
+}
+
+.heroimg {
+    width: 520px;
+    height: auto;
+}
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    gap: 32px;
+}
+
+ .title1 {
+    font-size: 48px;
+    font-weight: 800;
+ }
+
+ .book-now {
+    align-self:flex-start;
+    font-family: Roboto, sans-serif;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+ }
+
+ .book-now:hover{
+    background-color: white;
+    color: #3882F6;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+
+.container1 {
+    padding: 50px 150px;
+}
+
+ .title2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+ }
+
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 50px;
+}
+
+.infotext {
+    color: grey;
+    text-align: center;
+    padding: 16px;
+}
+
+.infoimg {
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 50px 200px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+.CTA {
+    background-color: #3882F6;
+    flex: 1;
+    padding: 60px 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CTA .text{
+    color: white;
+}
+
+.text .main {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text .sub{
+    color: white;
+    font-weight:lighter;
+}
+
+.book-now-neg {
+    font-family: Roboto, sans-serif;
+    border-color: white;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 8px 16px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.book-now-neg:hover {
+    background-color: white;
+    color:#3882F6;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.footer {
+    font-family: Roboto, sans-serif;
+    font-weight:lighter;
+    background-color: #1f2937;
+    color: white;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
